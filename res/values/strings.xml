@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroTorch</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Settings">Settings</string>
+    <string name="ColorActivity">ColorActivity</string>
+    <string name="ColorButton">Color</string>
+    <string name="Police">Police</string>
+    <string name="Flash">Flash</string>
+    <string name="Torch">Torch</string>
+</resources>

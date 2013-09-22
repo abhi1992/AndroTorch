@@ -1,0 +1,90 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/a"
+    tools:context=".Settings"
+    
+     >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        >
+
+        <Button
+            android:id="@+id/policeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/police" />
+
+        <Button
+            android:id="@+id/colorButton"
+            android:layout_width="wrap_content"
+            android:background="@drawable/color" />
+
+        <Button
+            android:id="@+id/Flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/torch" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bulbOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bulb_icon_off" />
+
+        <Button
+            android:id="@+id/cameraFlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/signal" />
+
+        <Button
+            android:id="@+id/screenLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/camera_flash" />
+
+    </TableRow>
+<TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/tornado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tornado" />
+
+    <Button
+        android:id="@+id/cameraLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/camera_light" />
+
+    <Button
+        android:id="@+id/disco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/disco" />
+</TableRow>
+<TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+<Button
+    android:id="@+id/tree"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tree" />
+
+</TableRow>
+</TableLayout>
